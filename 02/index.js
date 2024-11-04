@@ -1,6 +1,4 @@
-import obj from "./utils.js";
+import {fun, str} from "./utils.js";
 
-console.log(obj)
-
-obj.fun('node.js')
-console.log(obj.str);
+console.log(str);
+fun('node.js')

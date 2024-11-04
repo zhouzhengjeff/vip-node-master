@@ -1,8 +1,6 @@
-const str = "hello world";
-const fun = (info) => {
+export const str = "hello world";
+export const fun = (info) => {
     console.log(str + ":" + info);
 }
 
-export default {
-    str, fun
-}
+
